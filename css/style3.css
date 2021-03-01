@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css?family=poppins:200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carrois&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Saira+Stencil+One&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Cute+Font|Open+Sans&display=swap");
+
+*
+ {
+ 	margin: 0;
+ 	padding: 0;
+ 	box-sizing: border-box;
+ }
+ body {
+ 	background-color:#000;
+ 	font-family: 'Open Sans', sans-serif;
+ 	color: #fff;
+ }
+
+ .header-title {
+ 	text-align: center;
+ }
+ h2 {
+ 	font-size: 57px;
+ 	font-weight: 300;
+ 	font-family: 'Saira Stencil One', cursive;
+ }
+ h2 span {
+ 	font-weight: 700;
+ 	font-family: 'Iceland', cursive;
+ }
+.submenu {
+ 	text-align: center;
+ 	font-weight: bold;
+ 	font-size: 28px;
+  text-transform: uppercase;
+ 	padding-top: 20px;
+ 	padding-bottom: 10px;
+ }
+ .sticky {
+	position: fixed;
+	top: 0;
+}
+nav.sticky {
+	transition: 0.3s;
+	z-index: 1000;
+}
+nav { 
+	font-family: poppins, sans-serif;
+	width: 100%;
+ /* Add a black background color to the top navigation */
+}
+.topnav {
+  background-color: #111;
+  overflow :hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* Dropdown container - needed to position the dropdown content */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Style the dropdown button to fit inside the topnav */
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a dark background on topnav links and the dropdown button on hover */
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+/* Add a grey background to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+.image .head-image {
+	display:block;
+	margin:auto;
+
+}
+.deskripsi-menu {
+	display: block;
+	margin: 15px auto;
+	width: 75%;
+}
+.deskripsi-menu p {
+	text-align: left;
+ 	padding-top: 10px;
+ 	font-size: 17px;
+ 	font-weight: normal;
+ 	color: #ddd;
+}
+h3 {
+	padding-top: 10px;
+	font-size: 28px;
+	font-weight: normal;
+ 	color: #eee;
+  text-align: center;
+}
+iframe {
+	display: block;
+	margin:auto;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.content {
+  width: 85%;
+  margin: auto;
+  padding-top: 10px;
+}
+.content .main-content {
+  width: 48%;
+  float:left;
+  border-radius: 3px;
+
+}
+.content .sidebar {
+  width: 50%;
+  border-radius: 3px;
+  float:right;
+  text-align: right;
+  margin-top: 5px;
+}
+.content .sidebar .header-sidebar {
+  border-bottom: 1px solid #747474;
+  font-size: 17px;
+  letter-spacing: 1.5px;
+}
+.sidebar .sysreq-content {
+  margin-top: 10px;
+}
+.sidebar .sysreq-content .game_sysreq_full{
+  font-size: 14px;
+  font-family: "Motiva-sans", sans-serif;
+  font-weight: normal;
+}
+.sidebar .sysreq-content .game_sysreq_full ul {
+  list-style: none;
+  margin-left: 0;
+  line-height: 18px;
+}
+.sidebar .sysreq-content .game_sysreq_full ul strong {
+  font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    margin-bottom: 6px;
+    color: #bcc6cd;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-right: 4px;
+}
+.sidebar .sysreq-content .game_sysreq_full ul li strong {
+  color: #61686D;
+    font-size: 15px;
+    margin-right: 4px;
+    font-weight: normal;
+    margin-bottom: 2px;
+    text-transform: none;
+}
+.sidebar .sysreq-content .game_sysreq_full ul li span {
+  color: #afafaf;
+}
+.child-ul > li {
+  list-style-position: outside;
+}
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.featured .header-featured {
+  font-size: 16px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #747474;
+  color: #fff;
+  margin-bottom: 5px;
+  letter-spacing: 1.5px;
+}
+.featured {
+  margin-top: 5px;
+  color: #556772;
+}
+.main-content .featured .featured-content {
+  margin-top: 20px;
+}
+.featured .til-row {
+  display: flex;
+  line-height: 25px;
+}
+.featured .til-row .subtitle {
+  text-transform: uppercase;
+  font-size: 14px;
+  padding-right:81px;
+  min-width: 94px;
+}
+.featured .til-row .column {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.featured .til-row .date {
+  color: #afafaf;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.featured .rel-row {
+  display: flex;
+  line-height: 25px;
+}
+.featured .rel-row .subtitle {
+  text-transform: uppercase;
+  font-size: 14px;
+  padding-right: 11px;
+  min-width: 94px;
+}
+.featured .rel-row .column {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.featured .rel-row .date {
+  color: #afafaf;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.featured .gen-row {
+  display: flex;
+  line-height: 25px;
+}
+.featured .gen-row .subtitle {
+  text-transform: uppercase;
+  font-size: 14px;
+  padding-right:62px;
+  min-width: 94px;
+}
+.featured .gen-row .column {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.featured .gen-row .date {
+  color: #afafaf;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.featured .dev-row {
+  display: flex;
+  line-height: 25px;
+}
+.featured .dev-row .subtitle {
+  text-transform: uppercase;
+  font-size: 14px;
+  padding-right: 38px;
+  min-width: 94px;
+}
+.featured .dev-row .column {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.featured .dev-row .date {
+  color: #afafaf;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.featured .pub-row {
+  display: flex;
+  line-height: 25px;
+}
+.featured .pub-row .subtitle {
+  text-transform: uppercase;
+  font-size: 14px;
+  padding-right:42px;
+  min-width: 94px;
+}
+.featured .pub-row .column {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.featured .pub-row .date {
+  color: #afafaf;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.featured .gen-row .date a {
+  text-decoration: none;
+  color: #afafaf;
+}
+.featured .gen-row .date a:hover {
+  text-decoration: underline;
+}
+.ss-content {
+  padding-top: 20px;
+  width: 60%;
+  margin: auto;
+}
+.ss-title {
+  text-align:center;
+  font-weight: 700;
+  font-size: 35px;
+  width: 100%;
+  font-family: 'Cookies' cursive;
+}
+.ss-content .ss-menu {
+  margin-top: 30px;
+}
+.ss-content .ss-menu img {
+  padding-bottom: 10px;
+  width: 600px;
+}
+.download a {
+  text-decoration: none;
+  color: #afafaf;
+}
+.download a:hover {
+  text-decoration: underline;
+}
+.sc {
+  margin-left: 50px;
+  margin-top: 20px;
+  font-size: 23px;
+}
+.sc .fab {
+  padding-left: 5px;
+  font-size: 20px;
+}
+.sc .fa { 
+  color: #15388A;
+}
+footer {
+  position: relative;
+}
+footer .bottom {
+  padding: 10px;
+  font-size: 0.9375rem;
+  background: #151515; 
+}
+footer .bottom span {
+  color: #656565;
+}
+footer .bottom a {
+  text-decoration: none;
+  color:#44C6F7;
+}
+footer .bottom a:hover {
+  text-decoration: underline;
+}
+@media screen and (max-width: 200px) {
+  footer, footer .bottom {
+    position:relative;
+    bottom: 0;
+ 	}
+}
+@media screen and (max-width: 400px) {
+	.image .head-image {
+		width: 295px;
+		height: 200px;
+	}
+  .frame iframe {
+    width: 300px;
+    height: 180px;
+    margin-left: -30px;
+  }
+  .ss-content {
+    margin-right: 60px;
+  }
+  .ss-content .ss-menu {
+    margin-right: 80px;
+  }
+  .ss-content .ss-menu img {
+     width: 300px;
+    height:250px;
+    float: left;
+    margin: auto;
+    margin-left: -65px;
+  }
+  .content .main-content .featured .featured-content {
+    width: 200px;
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    padding-right: 10px;
+    margin-right: 20px;
+  }
+  .content .main-content .featured .featured-content .subtitle {
+    padding-right: 10px;
+  }
+  .content .sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: auto;
+  }
+}
+ @media screen and (max-width: 700px) {
+  iframe {
+    width: auto;
+    height: auto;
+  }
+ }
+ 
