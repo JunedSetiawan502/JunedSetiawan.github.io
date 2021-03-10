@@ -445,7 +445,7 @@ footer .bottom a:hover {
   .frame iframe {
     width: 300px;
     height: 180px;
-    margin-left: -30px;
+    margin-left: -13px;
   }
   .ss-content {
     margin-right: 60px;
@@ -477,6 +477,11 @@ footer .bottom a:hover {
     width: 200px;
     height: auto;
   }
+  footer .bottom {
+  padding: 10px;
+  font-size: 12px;
+  background: #151515; 
+}
 }
  @media screen and (max-width: 700px) {
   iframe {
