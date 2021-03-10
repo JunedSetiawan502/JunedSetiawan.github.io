@@ -823,15 +823,15 @@ footer {
 .bottom center a:hover {
 	text-decoration: underline;
 }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 150px) {
 	footer {
 		position:absolute;
-		bottom: -850px;
+		bottom: -1550px;
 	}
 	.main-content{
 		flex-direction: column;
     width: 100%;
-    margin-top: 10px;
+    margin-top:5px;
 	}
   ::-webkit-scrollbar {
   height: 5px;
@@ -848,9 +848,10 @@ footer {
   }
   .sidebar {
     display:table-cell;
-    width: 27%;
+    width: 100%;
     margin-top: 10px;
     float: left;
+	padding-right:245px;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -863,7 +864,7 @@ footer {
     line-height: 10px;
   }
   .content .main-content {
-    margin-left: 55px;
+    margin-left: 40px;
   }
   .content {
     display: inline-block;
@@ -897,7 +898,8 @@ sidebar {
 display:table-cell;
 width:100%;
 padding-right:280px;
-	margin-top:10px;
+margin-top:10px;
+	}
   footer {
     position:absolute;
     bottom: -3940;
