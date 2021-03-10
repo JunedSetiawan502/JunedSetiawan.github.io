@@ -893,6 +893,11 @@ footer {
   font-size: 13px;
   background: #151515; 
   }
+sidebar {
+display:table-cell;
+width:100%;
+padding-right:280px;
+	margin-top:10px;
   footer {
     position:absolute;
     bottom: -3940;
