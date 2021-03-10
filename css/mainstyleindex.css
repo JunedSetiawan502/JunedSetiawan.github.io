@@ -823,7 +823,7 @@ footer {
 .bottom center a:hover {
 	text-decoration: underline;
 }
-@media screen and (max-width: 150px) {
+@media screen and (max-width: 1050px) {
 	footer {
 		position:absolute;
 		bottom: -1550px;
@@ -854,7 +854,7 @@ footer {
 	padding-right:245px;
   }
 }
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .content .main-content .post {
     display: flex;
     flex-direction: column;
@@ -866,18 +866,11 @@ footer {
   .content .main-content {
     margin-left: 40px;
   }
-  .content {
-    display: inline-block;
-  }
   .main-content .content-post-title a {
     position: relative;
     top: 10;
     float: left;
     z-index: 20;
-  }
-  .content .sidebar {
-    padding-right: 250px;
-    margin-left: 30px;
   }
   .sidebar-content .sidebar-header {
     margin-bottom: 10px;
@@ -885,24 +878,14 @@ footer {
     border-bottom: 4px solid #FF8328;
     margin-left:5px;
   }
-  .left .footer-deskripsi p {
-    text-align:left;
-    font-size: 15px;
+    .sidebar {
+    display:table-cell;
+    width: 100%;
+    padding-right: 280px;
+    margin-top: 10px;
   }
-  .bottom center {
-  padding: 10px;
-  font-size: 13px;
-  background: #151515; 
-  }
-sidebar {
-display:table-cell;
-width:100%;
-padding-right:280px;
-margin-top:10px;
-	}
   footer {
     position:absolute;
-    bottom: -3940;
+    bottom: -3900px;
   }
-
 }
