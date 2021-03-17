@@ -18,23 +18,25 @@ if (empty($_SESSION['csrf_token'])) {
 	<link rel="icon" href="gambar/favicon.ico" type="image/x-icon">
 </head>
 <body style=" background-image:url('../gambar/bg.jpeg'); color: #eee;">
-	<nav>
-	<div class="topnav" id="myTopnav">
-  <a href="../index.html" class="active">Home</a>
-  <div class="dropdown">
-    <button class="dropbtn">Features
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content" id="myDropdown">
-      <a href="../Genre.html">Genres</a>
-      <a href="#">Released Game</a>
-    </div>
-  </div>
-  <a href="../team.html">Team</a>
-  <a href="#about">Request Game</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-	</div>
-	</nav>
+<nav>
+      <div class="topnav" id="myTopnav">
+        <a href="../index.html" class="active">Home</a>
+        <a href="../genre.html">Genres</a>
+        <div class="dropdown">
+          <button class="dropbtn">
+            Searching games
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content" id="myDropdown">
+            <a href="#">Released Game</a>
+            <a href="#">Top Game</a>
+            <a href="#">Category</a>
+          </div>
+        </div>
+		<a href="../team.html">Team</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+    </nav>
  <h3 style="text-align: center;">Ruang Chat</h3>
 <div class="container mb-3">
 	<form method="POST" id="form_komen">
@@ -121,5 +123,8 @@ if (empty($_SESSION['csrf_token'])) {
 			});
 		});
 	</script>
-	<script src="../script/script.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="../script/script.js"></script>
+  <script src="https://kit.fontawesome.com/6238fbe12e.js"></script>
 </html>
