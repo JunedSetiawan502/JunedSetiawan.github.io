@@ -1,0 +1,27 @@
+.jumbotron {
+  padding-top: 7rem;
+  background-color: #626266;
+}
+#project {
+  background-color: #626266;
+}
+footer {
+  background-color: #0099ff;
+}
+footer a {
+  text-decoration: none;
+}
+nav {
+  background-color: #42b7cc;
+}
+.gambar {
+  box-shadow: 2px -2px 1px 1px #555;
+  margin-top: px;
+  border-radius: 50%;
+}
+footer span {
+  color: red;
+}
+section {
+  padding-top: 70px;
+}
