@@ -53,12 +53,11 @@
     <div class="toggle"></div>
     <h2>Contact Us or Request</h2>
     <div class="scroll">
-    <form action="mailto:junedhayko502@gmail.com" method="post">
-      <input type="text" name="" placeholder="Name">
-      <input type="email" name="" placeholder="Email" autocomplete="" required="">
-      <input type="rel" name="" placeholder="Phone Number">
-      <textarea placeholder="Message here.." required=""></textarea>
-      <input type="submit" name="" value="send">
+    <form name="jun-contact-form">
+      <input type="text" name="nama" placeholder="Name">
+      <input type="email" name="email" placeholder="Email" autocomplete="" required="">
+      <textarea placeholder="Message here.." required="" name="pesan"></textarea>
+      <input type="submit" name="" value="Send">
     </form>
     </div>
   </div>
@@ -694,6 +693,16 @@
      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 	<script src="script/script.js"></script>
 	<script src="https://kit.fontawesome.com/6238fbe12e.js"></script>
-
+	<script>
+		const scriptURL = 'https://script.google.com/macros/s/AKfycbyhjGJu-5FPQpH3hgvwQ0CXDyiyrJD4tVpKww-V6HOWnQIT1SyShJKnGynpiVQ0B27s/exec';
+		const form = document.forms['jun-contact-form'];
+	
+		form.addEventListener('submit', (e) => {
+		  e.preventDefault();
+		  fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+			.then((response) => console.log('Success!', response))
+			.catch((error) => console.error('Error!', error.message));
+		});
+	  </script>
 </body>
 </html>
