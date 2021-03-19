@@ -3,56 +3,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Carrois&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Iceland&family=Saira+Stencil+One&display=swap');
-@import url("https://fonts.googleapis.com/css?family=Cute+Font|Open+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Cute+Font|Open+Sans&display=swap');
 
-*
- {
- 	margin: 0;
- 	padding: 0;
- 	box-sizing: border-box;
- }
- body {
- 	background-color:#000;
- 	font-family: 'Open Sans', sans-serif;
- 	color: #fff;
- }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+}
 
- .header-title {
- 	text-align: center;
- }
- h2 {
- 	font-size: 57px;
- 	font-weight: 300;
- 	font-family: 'Saira Stencil One', cursive;
- }
- h2 span {
- 	font-weight: 700;
- 	font-family: 'Iceland', cursive;
- }
+.header-title {
+  text-align: center;
+}
+h2 {
+  font-size: 57px;
+  font-weight: 300;
+  font-family: 'Saira Stencil One', cursive;
+}
+h2 span {
+  font-weight: 700;
+  font-family: 'Iceland', cursive;
+}
 .submenu {
- 	text-align: center;
- 	font-weight: bold;
- 	font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
   text-transform: uppercase;
- 	padding-top: 20px;
- 	padding-bottom: 10px;
- }
- .sticky {
-	position: fixed;
-	top: 0;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
 }
 nav.sticky {
-	transition: 0.3s;
-	z-index: 1000;
+  transition: 0.3s;
+  z-index: 1000;
 }
-nav { 
-	font-family: poppins, sans-serif;
-	width: 100%;
- /* Add a black background color to the top navigation */
+nav {
+  font-family: poppins, sans-serif;
+  width: 100%;
+  /* Add a black background color to the top navigation */
 }
 .topnav {
   background-color: #111;
-  overflow :hidden;
+  overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
@@ -95,7 +94,7 @@ nav {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -110,7 +109,8 @@ nav {
 }
 
 /* Add a dark background on topnav links and the dropdown button on hover */
-.topnav a:hover, .dropdown:hover .dropbtn {
+.topnav a:hover,
+.dropdown:hover .dropbtn {
   background-color: #555;
   color: white;
 }
@@ -128,7 +128,8 @@ nav {
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child), .dropdown .dropbtn {
+  .topnav a:not(:first-child),
+  .dropdown .dropbtn {
     display: none;
   }
   .topnav a.icon {
@@ -139,7 +140,9 @@ nav {
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
   .topnav.responsive a.icon {
     position: absolute;
     right: 0;
@@ -150,8 +153,12 @@ nav {
     display: block;
     text-align: left;
   }
-  .topnav.responsive .dropdown {float: none;}
-  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown {
+    float: none;
+  }
+  .topnav.responsive .dropdown-content {
+    position: relative;
+  }
   .topnav.responsive .dropdown .dropbtn {
     display: block;
     width: 100%;
@@ -159,34 +166,35 @@ nav {
   }
 }
 .image .head-image {
-	display:block;
-	margin:auto;
-
+  display: block;
+  margin: auto;
 }
 .deskripsi-menu {
-	display: block;
-	margin: 15px auto;
-	width: 75%;
+  display: block;
+  margin: 15px auto;
+  width: 75%;
 }
 .deskripsi-menu p {
-	text-align: left;
- 	padding-top: 10px;
- 	font-size: 17px;
- 	font-weight: normal;
- 	color: #ddd;
+  text-align: left;
+  padding: 10px 10px;
+  font-size: 17px;
+  font-weight: normal;
+  color: #ddd;
+  line-height: 24px;
+  box-shadow: 2px 2px 5px 1px #222;
 }
 h3 {
-	padding-top: 10px;
-	font-size: 28px;
-	font-weight: normal;
- 	color: #eee;
+  padding-top: 10px;
+  font-size: 28px;
+  font-weight: normal;
+  color: #eee;
   text-align: center;
 }
 iframe {
-	display: block;
-	margin:auto;
-	margin-top: 10px;
-	margin-bottom: 20px;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 .content {
   width: 85%;
@@ -195,14 +203,13 @@ iframe {
 }
 .content .main-content {
   width: 48%;
-  float:left;
+  float: left;
   border-radius: 3px;
-
 }
 .content .sidebar {
   width: 50%;
   border-radius: 3px;
-  float:right;
+  float: right;
   text-align: right;
   margin-top: 5px;
 }
@@ -214,9 +221,9 @@ iframe {
 .sidebar .sysreq-content {
   margin-top: 10px;
 }
-.sidebar .sysreq-content .game_sysreq_full{
+.sidebar .sysreq-content .game_sysreq_full {
   font-size: 14px;
-  font-family: "Motiva-sans", sans-serif;
+  font-family: 'Motiva-sans', sans-serif;
   font-weight: normal;
 }
 .sidebar .sysreq-content .game_sysreq_full ul {
@@ -226,21 +233,21 @@ iframe {
 }
 .sidebar .sysreq-content .game_sysreq_full ul strong {
   font-family: Arial, Helvetica, sans-serif;
-    font-weight: normal;
-    font-size: 13px;
-    margin-bottom: 6px;
-    color: #bcc6cd;
-    text-transform: uppercase;
-    display: inline-block;
-    margin-right: 4px;
+  font-weight: normal;
+  font-size: 13px;
+  margin-bottom: 6px;
+  color: #bcc6cd;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-right: 4px;
 }
 .sidebar .sysreq-content .game_sysreq_full ul li strong {
-  color: #61686D;
-    font-size: 15px;
-    margin-right: 4px;
-    font-weight: normal;
-    margin-bottom: 2px;
-    text-transform: none;
+  color: #61686d;
+  font-size: 15px;
+  margin-right: 4px;
+  font-weight: normal;
+  margin-bottom: 2px;
+  text-transform: none;
 }
 .sidebar .sysreq-content .game_sysreq_full ul li span {
   color: #afafaf;
@@ -275,7 +282,7 @@ iframe {
 .featured .til-row .subtitle {
   text-transform: uppercase;
   font-size: 14px;
-  padding-right:81px;
+  padding-right: 81px;
   min-width: 94px;
 }
 .featured .til-row .column {
@@ -315,7 +322,7 @@ iframe {
 .featured .gen-row .subtitle {
   text-transform: uppercase;
   font-size: 14px;
-  padding-right:62px;
+  padding-right: 62px;
   min-width: 94px;
 }
 .featured .gen-row .column {
@@ -355,7 +362,7 @@ iframe {
 .featured .pub-row .subtitle {
   text-transform: uppercase;
   font-size: 14px;
-  padding-right:42px;
+  padding-right: 42px;
   min-width: 94px;
 }
 .featured .pub-row .column {
@@ -381,7 +388,7 @@ iframe {
   margin: auto;
 }
 .ss-title {
-  text-align:center;
+  text-align: center;
   font-weight: 700;
   font-size: 35px;
   width: 100%;
@@ -410,8 +417,8 @@ iframe {
   padding-left: 5px;
   font-size: 20px;
 }
-.sc .fa { 
-  color: #15388A;
+.sc .fa {
+  color: #15388a;
 }
 footer {
   position: relative;
@@ -419,29 +426,30 @@ footer {
 footer .bottom {
   padding: 10px;
   font-size: 0.9375rem;
-  background: #151515; 
+  background: #151515;
 }
 footer .bottom span {
   color: #656565;
 }
 footer .bottom a {
   text-decoration: none;
-  color:#44C6F7;
+  color: #44c6f7;
 }
 footer .bottom a:hover {
   text-decoration: underline;
 }
 @media screen and (max-width: 200px) {
-  footer, footer .bottom {
-    position:relative;
+  footer,
+  footer .bottom {
+    position: relative;
     bottom: 0;
- 	}
+  }
 }
 @media screen and (max-width: 400px) {
-	.image .head-image {
-		width: 295px;
-		height: 200px;
-	}
+  .image .head-image {
+    width: 295px;
+    height: 200px;
+  }
   .frame iframe {
     width: 300px;
     height: 180px;
@@ -454,8 +462,8 @@ footer .bottom a:hover {
     margin-right: 80px;
   }
   .ss-content .ss-menu img {
-     width: 300px;
-    height:250px;
+    width: 300px;
+    height: 250px;
     float: left;
     margin: auto;
     margin-left: -65px;
@@ -471,22 +479,21 @@ footer .bottom a:hover {
   .content .main-content .featured .featured-content .subtitle {
     padding-right: 10px;
   }
-  .content .sidebar{
+  .content .sidebar {
     display: flex;
     flex-direction: column;
     width: 200px;
     height: auto;
   }
   footer .bottom {
-  padding: 10px;
-  font-size: 13px;
-  background: #151515; 
+    padding: 10px;
+    font-size: 13px;
+    background: #151515;
+  }
 }
-}
- @media screen and (max-width: 700px) {
+@media screen and (max-width: 700px) {
   iframe {
     width: auto;
     height: auto;
   }
- }
- 
+}
