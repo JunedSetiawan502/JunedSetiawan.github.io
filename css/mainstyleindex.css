@@ -600,7 +600,6 @@ a {
 }
 .image figcaption:hover {
 	text-decoration: underline;
-  filter: blur(50px);
 }
 .image-overlay > * {
 	transform: translateY(20px);
@@ -876,16 +875,18 @@ footer {
   }
   .content .sidebar {
     padding-right: 295px;
-    margin-left: 30px;
+    margin-left: 13px;
+    padding-top: 40px;
   }
   .sidebar-content .sidebar-header {
     margin-bottom: 10px;
     width: 100%;
     border-bottom: 4px solid #FF8328;
     margin-left:5px;
+    text-align: center;
   }
   .left .footer-deskripsi p {
-    text-align:left;
+    text-align:center;
     font-size: 15px;
   }
   .bottom center {
@@ -895,7 +896,7 @@ footer {
   }
   footer {
     position:absolute;
-    bottom: -3940;
+    bottom: -3870;
   }
 
 }

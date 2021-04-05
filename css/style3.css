@@ -445,7 +445,7 @@ footer .bottom a:hover {
     bottom: 0;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   .image .head-image {
     width: 295px;
     height: 200px;
@@ -453,7 +453,7 @@ footer .bottom a:hover {
   .frame iframe {
     width: 300px;
     height: 180px;
-    margin-left: -30px;
+    margin-left: -13px;
   }
   .ss-content {
     margin-right: 60px;
