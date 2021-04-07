@@ -876,7 +876,7 @@ footer {
   .content .sidebar {
     padding-right: 295px;
     margin-left: 13px;
-    padding-top: 40px;
+    margin-top: 40px;
   }
   .sidebar-content .sidebar-header {
     margin-bottom: 10px;
@@ -896,7 +896,7 @@ footer {
   }
   footer {
     position:absolute;
-    bottom: -3870;
+    bottom: -3900;
   }
 
 }
