@@ -803,10 +803,40 @@ footer {
 .bottom center a:hover {
   text-decoration: underline;
 }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1024px) {
   footer {
     position: absolute;
-    bottom: -850px;
+    bottom: -700px;
+  }
+  .main-content {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  }
+  ::-webkit-scrollbar {
+    height: 5px;
+    border-radius: 10%;
+  }
+  .main-content .post {
+    overflow-x: auto;
+  }
+  .main-content .box {
+    margin: 5px 0;
+  }
+  .content {
+    display: flex;
+  }
+  .sidebar {
+    display: table-cell;
+    width: 27%;
+    margin-top: 10px;
+    float: left;
+  }
+}
+@media screen and (max-width: 768px) {
+  footer {
+    position: absolute;
+    bottom: -670px;
   }
   .main-content {
     flex-direction: column;
