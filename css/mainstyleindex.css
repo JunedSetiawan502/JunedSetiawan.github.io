@@ -11,7 +11,7 @@ html {
   width: 100%;
 }
 body {
-  background: url('../gambar/bg.jpeg');
+  background: url('../gambar/wallpaper.jpeg');
   background-attachment: fixed;
   font-family: poppins, sans-serif;
 }
@@ -55,6 +55,8 @@ a:hover {
   width: 100%;
   height: 220px;
   background-size: cover;
+  transition: 1.5s linear;
+  -moz-transition: 1.5s linear;
 }
 .container .content-head {
   position: absolute;

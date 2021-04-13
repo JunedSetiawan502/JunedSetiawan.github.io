@@ -82,3 +82,15 @@ $(document).ready(function () {
     $(this).toggleClass('active');
   });
 });
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxDZ-tr2iKC6A6jVfKUNR5LMKmJ41l9Q5SeuKkEMeoQ7RkCLX_bBoF_3oNemucR4lW9Wg/exec';
+const form = document.forms['webgame-contact-form'];
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+    .then((response) => {
+      console.log('Success!', response);
+      form.reset();
+    })
+    .catch((error) => console.error('Error!', error.message));
+});
