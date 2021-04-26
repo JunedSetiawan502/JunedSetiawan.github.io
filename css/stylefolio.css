@@ -2,8 +2,23 @@
   padding-top: 7rem;
   background-color: #626266;
 }
-#project {
+#skill {
   background-color: #626266;
+}
+#skill .progress {
+  height: 20px;
+}
+#skill .progress-bar {
+  background-color: #b35dd6;
+}
+#project {
+  background-color: #fff;
+}
+#project .card {
+  box-shadow: 2px 2px 8px 2px #ccc;
+}
+hr {
+  color: #000;
 }
 footer {
   background-color: #0099ff;
