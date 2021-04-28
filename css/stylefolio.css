@@ -1,16 +1,9 @@
-* {
-   overflow-x:hidden;
-}
 .jumbotron {
   padding-top: 7rem;
   background-color: #626266;
 }
 #skill {
   background-color: #626266;
-  overflow-y: hidden;
-}
-#skill .row {
-  overflow-y: hidden;
 }
 #skill .progress {
   height: 20px;
@@ -47,6 +40,15 @@ footer span {
 section {
   padding-top: 70px;
 }
-h1, h2, h3, h4 {
-   overflow: hidden;
+#team {
+  background-color: #626266;
+}
+.facebook:hover {
+  color: #3b5998;
+}
+.github:hover {
+  color: #ccc;
+}
+.youtube:hover {
+  color: #f81414;
 }
