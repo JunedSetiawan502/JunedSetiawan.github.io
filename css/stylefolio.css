@@ -8,7 +8,7 @@ h4,
 h5 {
   overflow-y: hidden;
 }
-.container, row {
+.container, .row {
   overflow-y: hidden;
 }
 .jumbotron {
