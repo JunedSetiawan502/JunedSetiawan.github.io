@@ -8,6 +8,9 @@ h4,
 h5 {
   overflow-y: hidden;
 }
+.container, row {
+  overflow-y: hidden;
+}
 .jumbotron {
   padding-top: 7rem;
   background-color: #626266;
