@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=poppins:200,300,400,500,600,700,800,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Exo:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Carter+One&display=swap");
+@import url('https://fonts.googleapis.com/css?family=poppins:200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
 
 * {
   margin: 0;
@@ -11,7 +11,7 @@ html {
   width: 100%;
 }
 body {
-  background: url("../gambar/wallpaper.jpeg");
+  background: url('../gambar/wallpaper.jpeg');
   background-attachment: fixed;
   font-family: poppins, sans-serif;
 }
@@ -38,7 +38,7 @@ a:hover {
   text-decoration: underline;
 }
 .clearfix::after {
-  content: "";
+  content: '';
   display: block;
   clear: both;
 }
@@ -91,16 +91,16 @@ a:hover {
 .container .content-head span {
   letter-spacing: 2px;
   color: #ffc703;
-  font: normal 30px "Cookie", cursive;
+  font: normal 30px 'Cookie', cursive;
 }
 .container .content-head .pt1 {
   letter-spacing: 2px;
   color: #fff;
-  font: normal 30px "Cookie", cursive;
+  font: normal 30px 'Cookie', cursive;
 }
 .container .content-head p {
   padding-top: 6px;
-  font: normal 20px "Helvetica", sans-serif;
+  font: normal 20px 'Helvetica', sans-serif;
 }
 .clear-head {
   clear: both;
@@ -138,7 +138,7 @@ header .logo {
   font-size: 24px;
   float: left;
   font-weight: 500;
-  font-family: "Carter One", cursive;
+  font-family: 'Carter One', cursive;
 }
 
 header .logo span {
@@ -150,7 +150,7 @@ header .logo span {
 
 header .navbar {
   float: right;
-  font-family: "Exo", sans-serif;
+  font-family: 'Exo', sans-serif;
 }
 
 header .navbar ul {
@@ -165,7 +165,7 @@ header .navbar ul li {
 }
 
 header .navbar ul li.sub-menu:before {
-  content: "\f0d7";
+  content: '\f0d7';
   font-family: fontAwesome;
   position: absolute;
   line-height: 50px;
@@ -174,7 +174,7 @@ header .navbar ul li.sub-menu:before {
 }
 
 header .navbar ul li.active.sub-menu:before {
-  content: "\f0d8";
+  content: '\f0d8';
 }
 
 header .navbar ul li ul {
@@ -260,7 +260,7 @@ header .navbar ul li a.active {
     width: 100%;
   }
 }
-input[type="text"] {
+input[type='text'] {
   width: 100%;
   font-size: 16px;
   background-color: transparent;
@@ -343,10 +343,10 @@ input[type="text"] {
 .sd-kontak.active {
   left: 0;
 }
-.sd-kontak input[type="text"],
-.sd-kontak input[type="email"],
-.sd-kontak input[type="rel"],
-.sd-kontak input[type="submit"],
+.sd-kontak input[type='text'],
+.sd-kontak input[type='email'],
+.sd-kontak input[type='rel'],
+.sd-kontak input[type='submit'],
 .sd-kontak textarea {
   width: 100%;
   height: 36px;
@@ -368,16 +368,16 @@ input[type="text"] {
   height: 60px;
   resize: none;
 }
-.sd-kontak input[type="submit"] {
+.sd-kontak input[type='submit'] {
   background: #00bcd4;
   color: #fff;
   cursor: pointer;
   border: none;
   font-size: 18px;
 }
-.sd-kontak input[type="text"]:focus,
-.sd-kontak input[type="email"]:focus,
-.sd-kontak input[type="rel"]:focus,
+.sd-kontak input[type='text']:focus,
+.sd-kontak input[type='email']:focus,
+.sd-kontak input[type='rel']:focus,
 .sd-kontak textarea:focus {
   box-shadow: 0px 2px rgba(0, 200, 200, 100);
   width: 100%;
@@ -396,14 +396,14 @@ input[type="text"] {
   border-radius: 50%;
 }
 .toggle:before {
-  content: "\f003";
+  content: '\f003';
   font-family: fontAwesome;
   font-size: 18px;
   color: #fff;
   border-color: #373dff;
 }
 .toggle.active:before {
-  content: "\f00d";
+  content: '\f00d';
   border-color: #373dff;
 }
 @media (max-width: 768px) {
@@ -505,7 +505,7 @@ a {
 }
 
 .title-btn span:after {
-  content: "\00bb";
+  content: '\00bb';
   position: absolute;
   opacity: 0;
   top: 0;
@@ -546,7 +546,7 @@ a {
   width: 100%;
   height: 90%;
   background: rgba(0, 0, 0, 0.5);
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Quicksand', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -561,7 +561,7 @@ a {
   width: 100%;
   height: 90%;
   background: rgba(0, 0, 0, 0.5);
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Quicksand', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -742,7 +742,7 @@ footer {
 }
 .box .footer-deskripsi::before {
   position: absolute;
-  content: "";
+  content: '';
   height: 2px;
   width: 100%;
   background: #1a1a1a;
@@ -750,7 +750,7 @@ footer {
 }
 .box .footer-deskripsi::after {
   position: absolute;
-  content: "";
+  content: '';
   height: 2px;
   width: 100%;
   background: #f4511e;
