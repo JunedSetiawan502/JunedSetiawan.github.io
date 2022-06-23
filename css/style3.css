@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=poppins:200,300,400,500,600,700,800,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Carrois&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Saira+Stencil+One&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Cute+Font|Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css?family=poppins:200,300,400,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Iceland&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Carrois&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Iceland&family=Saira+Stencil+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cute+Font|Open+Sans&display=swap");
 
 * {
   margin: 0;
@@ -12,7 +12,7 @@
 }
 body {
   background-color: #000;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #fff;
 }
 
@@ -22,11 +22,11 @@ body {
 h2 {
   font-size: 57px;
   font-weight: 300;
-  font-family: 'Saira Stencil One', cursive;
+  font-family: "Saira Stencil One", cursive;
 }
 h2 span {
   font-weight: 700;
-  font-family: 'Iceland', cursive;
+  font-family: "Iceland", cursive;
 }
 .submenu {
   text-align: center;
@@ -223,7 +223,7 @@ iframe {
 }
 .sidebar .sysreq-content .game_sysreq_full {
   font-size: 14px;
-  font-family: 'Motiva-sans', sans-serif;
+  font-family: "Motiva-sans", sans-serif;
   font-weight: normal;
 }
 .sidebar .sysreq-content .game_sysreq_full ul {
@@ -256,7 +256,7 @@ iframe {
   list-style-position: outside;
 }
 .clearfix::after {
-  content: '';
+  content: "";
   display: block;
   clear: both;
 }
@@ -392,7 +392,7 @@ iframe {
   font-weight: 700;
   font-size: 35px;
   width: 100%;
-  font-family: 'Cookies' cursive;
+  font-family: "Cookies" cursive;
 }
 .ss-content .ss-menu {
   margin-top: 30px;
